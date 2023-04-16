@@ -1,6 +1,7 @@
+
 import 'package:flutter/material.dart';
-import 'package:study_toon/calendar.dart';
-import 'package:study_toon/pomodoro.dart';
+import 'package:study_toon/screen/movies_home.dart';
+import 'package:study_toon/screen/pomodoro.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         ),
         cardColor: const Color(0xFFF4EDDB)
       ),
-      home: PomodoroApp(),
+      home: MoviesHomeScreen(),
     );
   }
 }

@@ -1,8 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:study_toon/main.dart';
 
 class PomodoroApp extends StatefulWidget {
   const PomodoroApp({Key? key}) : super(key: key);
